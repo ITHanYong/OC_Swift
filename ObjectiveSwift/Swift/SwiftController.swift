@@ -1,5 +1,5 @@
 //
-//  GiveUpController.swift
+//  SwiftController.swift
 //  ObjectiveSwift
 //
 //  Created by HanYong on 2019/3/15.
@@ -8,8 +8,9 @@
 
 import UIKit
 
-class GiveUpController : UIViewController{
+class SwiftController : UIViewController{
 
+    //前面添加 @objc 表示可以被OC类引用
     @objc public var name : String!
     static var age : String!
     
@@ -19,17 +20,19 @@ class GiveUpController : UIViewController{
         self.view.backgroundColor = UIColor.purple
         
         let btn = UIButton(type: .custom)
-        btn.setTitle("back", for: .normal)
+        btn.setTitle("back OC", for: .normal)
         btn.setTitleColor(UIColor.orange, for: .normal)
-        btn.frame = CGRect(x: 20, y: 100, width: 60, height: 30)
+        btn.frame = CGRect(x: 20, y: 100, width: 80, height: 30)
         btn.addTarget(self, action: #selector(goBack), for: .touchUpInside)
         self.view.addSubview(btn)
+        
+        print("\(name ?? "name为空")")
     }
     
     @objc var work : String! {
         didSet{
             
-            print("\(work)")
+            print("\(work ?? "空值")")
         }
     }
     
@@ -38,7 +41,7 @@ class GiveUpController : UIViewController{
     }
     
     @objc func goBack ()  {
-        let viewC = ViewController()
+        let viewC = OCViewController()
         viewC.name = "回去"
         self.dismiss(animated: true, completion: nil)
     }

@@ -8,27 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		4475DA3B223BBF4E0073A9EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4475DA3A223BBF4E0073A9EC /* AppDelegate.m */; };
-		4475DA3E223BBF4E0073A9EC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4475DA3D223BBF4E0073A9EC /* ViewController.m */; };
+		4475DA3E223BBF4E0073A9EC /* OCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4475DA3D223BBF4E0073A9EC /* OCViewController.m */; };
 		4475DA41223BBF4E0073A9EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4475DA3F223BBF4E0073A9EC /* Main.storyboard */; };
 		4475DA43223BBF4F0073A9EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4475DA42223BBF4F0073A9EC /* Assets.xcassets */; };
 		4475DA46223BBF4F0073A9EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4475DA44223BBF4F0073A9EC /* LaunchScreen.storyboard */; };
 		4475DA49223BBF4F0073A9EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4475DA48223BBF4F0073A9EC /* main.m */; };
-		4475DA52223BBF7B0073A9EC /* GiveUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4475DA51223BBF7B0073A9EC /* GiveUpController.swift */; };
+		4475DA52223BBF7B0073A9EC /* SwiftController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4475DA51223BBF7B0073A9EC /* SwiftController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4475DA36223BBF4E0073A9EC /* ObjectiveSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjectiveSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4475DA39223BBF4E0073A9EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4475DA3A223BBF4E0073A9EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4475DA3C223BBF4E0073A9EC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4475DA3D223BBF4E0073A9EC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4475DA3C223BBF4E0073A9EC /* OCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCViewController.h; sourceTree = "<group>"; };
+		4475DA3D223BBF4E0073A9EC /* OCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCViewController.m; sourceTree = "<group>"; };
 		4475DA40223BBF4E0073A9EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4475DA42223BBF4F0073A9EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4475DA45223BBF4F0073A9EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4475DA47223BBF4F0073A9EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4475DA48223BBF4F0073A9EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4475DA50223BBF7B0073A9EC /* ObjectiveSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ObjectiveSwift-Bridging-Header.h"; sourceTree = "<group>"; };
-		4475DA51223BBF7B0073A9EC /* GiveUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiveUpController.swift; sourceTree = "<group>"; };
+		4475DA51223BBF7B0073A9EC /* SwiftController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +63,8 @@
 			children = (
 				4475DA39223BBF4E0073A9EC /* AppDelegate.h */,
 				4475DA3A223BBF4E0073A9EC /* AppDelegate.m */,
-				4475DA3C223BBF4E0073A9EC /* ViewController.h */,
-				4475DA3D223BBF4E0073A9EC /* ViewController.m */,
+				4475DA3C223BBF4E0073A9EC /* OCViewController.h */,
+				4475DA3D223BBF4E0073A9EC /* OCViewController.m */,
 				4475DA4F223BBF5F0073A9EC /* Swift */,
 				4475DA3F223BBF4E0073A9EC /* Main.storyboard */,
 				4475DA42223BBF4F0073A9EC /* Assets.xcassets */,
@@ -78,7 +78,7 @@
 		4475DA4F223BBF5F0073A9EC /* Swift */ = {
 			isa = PBXGroup;
 			children = (
-				4475DA51223BBF7B0073A9EC /* GiveUpController.swift */,
+				4475DA51223BBF7B0073A9EC /* SwiftController.swift */,
 				4475DA50223BBF7B0073A9EC /* ObjectiveSwift-Bridging-Header.h */,
 			);
 			path = Swift;
@@ -155,8 +155,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4475DA3E223BBF4E0073A9EC /* ViewController.m in Sources */,
-				4475DA52223BBF7B0073A9EC /* GiveUpController.swift in Sources */,
+				4475DA3E223BBF4E0073A9EC /* OCViewController.m in Sources */,
+				4475DA52223BBF7B0073A9EC /* SwiftController.swift in Sources */,
 				4475DA49223BBF4F0073A9EC /* main.m in Sources */,
 				4475DA3B223BBF4E0073A9EC /* AppDelegate.m in Sources */,
 			);
